@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Web Tech Assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 5px solid #667eea;
+        }
+
+        .info-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .info-card p {
+            margin: 8px 0;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Student Profile</h1>
+            <p>Web Technologies - Assignment 1</p>
+        </header>
+
+        <div class="content">
+            <div class="info-card">
+                <h3>Personal Information</h3>
+                <p><strong>Full Name:</strong> Hagar [Ali]</p>
+                <p><strong>Program:</strong> [BBIB]</p>
+                <p><strong>Semester:</strong> [2nd]</p>
+                <p><strong>Student ID:</strong> [905005946]</p>
+                <p><strong>Year:</strong> 2026</p>
+            </div>
+
+            <div class="info-card">
+                <h3>About Me</h3>
+                <p>Hello! I'm Hagar, a student learning web development and version control with GitHub.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 Hagar - Web Technologies Module</p>
+            <p>GitHub Repository Submission</p>
+        </footer>
+    </div>
+</body>
+</html>
